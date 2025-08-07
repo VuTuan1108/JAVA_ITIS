@@ -15,5 +15,10 @@ public class Main {
        for(StudentManager m:list){
            System.out.println(m);
        }
+       int q=sc.nextInt();
+       for(int i=0;i<q;i++){
+           int a=sc.nextInt();
+           System.out.println(list.get(a));
+       }
     }
 }
