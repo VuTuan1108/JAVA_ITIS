@@ -12,7 +12,6 @@ public class Student {
           this.ID=ID;
       }
       Student(){
-      }
 
       public String getName(){
           return name;
